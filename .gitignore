@@ -3,72 +3,64 @@
 # ===========================================
 # SECURITY - CRITICAL (Never commit these!)
 # ===========================================
-.env                          # OpenAI API keys and secrets
-.venv/                        # Virtual environment
-venv/                         # Virtual environment
-env/                          # Environment variables
+.env
+.venv/
+venv/
+env/
 
 # ===========================================
 # DATABASE - Django specific
 # ===========================================
-db.sqlite3                    # SQLite database file
-db.sqlite3-journal           # SQLite journal file
-*.sqlite3                    # Any SQLite database files
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
 
 # ===========================================
 # PYTHON - Essential for all Python projects
 # ===========================================
-__pycache__/                  # Python cache directory
-*.pyc                        # Compiled Python files
-*.pyo                        # Optimized Python files
-*.pyd                        # Python extension modules
-*.py[cod]                    # Python compiled files
-*$py.class                   # Python class files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
 
 # ===========================================
 # DJANGO - Framework specific
 # ===========================================
-*.log                        # Django log files
-*.pot                        # Django translation files
-local_settings.py            # Local Django settings
-media/                       # Django media files
-staticfiles/                 # Django static files
-static/                      # Django static files
+*.log
+*.pot
+local_settings.py
+media/
+staticfiles/
+static/
 
 # ===========================================
 # IDE - Development environment
 # ===========================================
-.vscode/                     # VS Code settings
-.idea/                       # PyCharm/IntelliJ settings
-*.swp                        # Vim swap files
-*.swo                        # Vim swap files
-*.sublime-*                  # Sublime Text files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
 
 # ===========================================
 # OS - Operating system files
 # ===========================================
-.DS_Store                    # macOS
-.DS_Store?                   # macOS
-._*                          # macOS
-.Spotlight-V100              # macOS
-.Trashes                     # macOS
-ehthumbs.db                  # Windows
-Thumbs.db                    # Windows
-Desktop.ini                  # Windows
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
 
 # ===========================================
 # TEMPORARY FILES
 # ===========================================
-*.tmp                        # Temporary files
-*.temp                       # Temporary files
-*.bak                        # Backup files
-*.swp                        # Swap files
-*.swo                        # Swap files
-
-# ===========================================
-# DEPLOYMENT (Optional - uncomment if needed)
-# ===========================================
-# .env.production            # Production environment
-# .env.staging               # Staging environment
-# requirements.txt           # Uncomment if you want to ignore requirements
-# Procfile                   # Uncomment if using Heroku
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
