@@ -1,0 +1,16 @@
+# Django ChatGPT Clone - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+Django==5.2.6
+
+# AI Integration
+openai==1.54.0
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Additional useful packages (optional)
+# Uncomment if you need them:
+# requests==2.31.0
+# pillow==10.0.0
